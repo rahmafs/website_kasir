@@ -13,27 +13,28 @@ class UserSeeder extends Seeder
     {
         // Admin
         User::create([
-            'name' => 'Admin Utama',
-            'email' => 'admin@example.com',
-            'email_verified_at' => now(),
-            'password' => Hash::make('admin123'), // ubah sesuai kebutuhan
+            'nama' => 'Admin Utama',
+            'email' => 'admin@gmail.com',
+            'password' => Hash::make('admin123'),
+            'role' => 'admin',
             'remember_token' => Str::random(10),
         ]);
 
-        // Kasir
+        // Kasir 1
         User::create([
-            'name' => 'Kasir Toko',
-            'email' => 'kasir@example.com',
-            'email_verified_at' => now(),
-            'password' => Hash::make('kasir123'), // ubah sesuai kebutuhan
+            'nama' => 'Kasir Toko',
+            'email' => 'kasir@gmail.com',
+            'password' => Hash::make('kasir123'),
+            'role' => 'kasir',
             'remember_token' => Str::random(10),
         ]);
-        
+
+        // Kasir 2
         User::create([
-            'name' => 'Kasir2',
-            'email' => 'kasir2@example.com',
-            'email_verified_at' => now(),
-            'password' => Hash::make('12345678'), // ubah sesuai kebutuhan
+            'nama' => 'Kasir Dua',
+            'email' => 'kasir2@gmail.com',
+            'password' => Hash::make('12345678'),
+            'role' => 'kasir',
             'remember_token' => Str::random(10),
         ]);
     }

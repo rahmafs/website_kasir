@@ -28,7 +28,7 @@
 
             <!-- Submenu Data Master -->
             <div id="submenuMaster" class="ml-8 mt-2 hidden space-y-2">
-                <a href="/admin/pelanggan" class="block text-gray-600 hover:text-indigo-600">Kelola Kasir</a>
+                <a href="kelola_kasir" class="block text-gray-600 hover:text-indigo-600">Kelola Kasir</a>
                 <a href="/admin/produk" class="block text-gray-600 hover:text-indigo-600">Produk</a>
                 <a href="/admin/kategori-produk" class="block text-gray-600 hover:text-indigo-600">Kategori Produk</a>
             </div>
@@ -62,13 +62,6 @@
                 <a href="/admin/laporan_transaksi" class="block text-gray-600 hover:text-indigo-600">Laporan Transaksi</a>
             </div>
         </div>
-
-
-        <!-- Pengguna -->
-        <a href="#" class="flex items-center gap-3 py-2 px-4 rounded-lg hover:bg-gray-100">
-            👤 <span>Pengguna</span>
-        </a>
-
     </nav>
 </aside>
 

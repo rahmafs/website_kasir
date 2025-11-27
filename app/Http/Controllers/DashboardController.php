@@ -35,4 +35,8 @@ class DashboardController extends Controller
     {
         return view('kasir.sidebar_kasir');
     }
+      public function index9()
+    {
+        return view('admin.kelola_kasir');
+    }
 }
